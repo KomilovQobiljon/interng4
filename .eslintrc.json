@@ -23,6 +23,7 @@
         "prettier"
     ],
     "rules": {
+      "react/no-unescaped-entities": "off",
       "react/react-in-jsx-scope": ["off"],
       "@typescript-eslint/quotes": ["error", "double", {"avoidEscape": true}],
       "@typescript-eslint/semi": ["off"],
